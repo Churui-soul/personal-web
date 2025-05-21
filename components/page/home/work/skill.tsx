@@ -47,7 +47,7 @@ const skillList = [
 ]
 export default function Skill() {
   return (
-    <div className="px-4 lg:px-16 xl:px-32 2xl:px-44 flex gap-4 flex-col">
+    <div className="px-4 lg:px-16 xl:px-32 2xl:px-44 flex gap-4 flex-col relative z-1">
       {skillList.map((skillRow, rowIndex) => (
         <div className="flex gap-4 flex-wrap lg:flex-nowrap" key={rowIndex}>
           {skillRow.map((skill, index) => (

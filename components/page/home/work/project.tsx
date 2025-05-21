@@ -90,7 +90,7 @@ const ReviewCard = ({
 
 export default function ProjectCard() {
   return (
-    <div id='record' className="px-4 pt-34 lg:px-16 xl:px-32 2xl:px-44">
+    <div id='record' className="px-4 pt-34 lg:px-16 xl:px-32 2xl:px-44 relative z-1">
         <div className="text-2xl leading-[1.7]">
             <div>工作和业余中开发了很多项目，并将掌握的技术应用到项目中进行实践，完善技术壁垒，扩充知识范围。</div>
             <div>从业<NumberTicker value={8*365} className="text-orange-400 font-bold text-3xl"/>天里掌握了多种不同角度的编码思路，逐渐提高了代码的扩展性和维护性，积极与项目小组成员分享技术方案并编写文档，从而提高团队开发项目质量。</div>

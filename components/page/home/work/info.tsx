@@ -6,7 +6,7 @@ import { SparklesText } from "@/components/magicui/sparkles-text";
 
 export default function WorkInfo() {
   return (
-    <div id="code" className="w-full px-4 lg:px-16 xl:px-32 2xl:px-44 relative z-10 py-24 lg:py-32">
+    <div id="code" className="w-full px-4 lg:px-16 xl:px-32 2xl:px-44 relative z-10 py-24 lg:py-32 relative z-1">
       <div className="accentLightBg w-full lg:w-2/3 rounded-3xl block lg:flex relative left-0 right-5 py-6 pl-6 xl:pl-12 pr-6 lg:pr-0">
         <div className="w-full lg:w-1/2 flex flex-col lg:mr-6 xl:mr-12 justify-around">
             <h3 className="text-orange-400 text-5xl xl:text-6xl font-semibold whitespace-nowrap pb-6">前端工程师</h3>

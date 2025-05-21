@@ -25,7 +25,7 @@ export default function PersonalInfo() {
 
   return (
     <div id="home" className="info-container">
-      <div className="relative flex py-44 w-full flex-col items-center justify-center overflow-hidden">
+      <div className="relative flex py-44 w-full flex-col items-center justify-center overflow-hidden z-1">
         <OrbitingCircles iconSize={avatarSize} radius={280} duration={20}>
           <Symbol
             name="chrome"

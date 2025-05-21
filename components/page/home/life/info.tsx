@@ -15,7 +15,7 @@ export default function LifeInfo() {
   ];
 
   return (
-    <div id='experience' className="px-4 lg:px-16 xl:px-32 2xl:px-44 flex gap-4 flex-col my-24 lg:my-32">
+    <div id='experience' className="px-4 lg:px-16 xl:px-32 2xl:px-44 flex gap-4 flex-col my-24 lg:my-32 relative z-1">
       <div className="flex flex-col lg:flex-row gap-6">
         <div className="basis-2/3 rounded-3xl accentWhiteBg p-6">
           <div className="font-fantasy text-4xl mb-2">时间</div>
@@ -55,7 +55,7 @@ export default function LifeInfo() {
                 className="border-[6px] border-slate-50 absolute w-[20%] left-[10%] top-[54%] rounded-full animation_circle"
                 aria-hidden
                 alt="circle"
-                src="/circle.jpg"
+                src="/avatar.jpg"
                 priority={true}
                 width={1140}
                 height={1142}

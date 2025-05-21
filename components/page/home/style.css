@@ -1,7 +1,6 @@
 .home {
     overflow: auto;
     min-height: 100vh;
-    background-image: radial-gradient(circle farthest-corner at 100% 50%,#d1d3d6,#fcfcfd);
 } 
 .accentDarkBg {
     box-shadow: 20px 113px 140px -30px rgba(0,0,0,.1);

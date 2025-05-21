@@ -148,9 +148,36 @@
   }
 }
 
+
+@utility book-rotate {
+  transform: rotateX(80deg) rotate(45deg) scale(0.75);
+  transition: transform 0.5s ease;
+}
+@utility book-right {
+transform-origin: right;
+transform: translateY(0) translateX(0) translateZ(0) rotateY(-90deg);
+width: var(--book-height, 30px)
+}
+@utility book-bottom { 
+transform-origin: top;
+transform: translateY(0) translateX(0) translateZ(0) rotateX(-90deg);
+height: var(--book-height,30px)
+}
+@utility book-stripes {
+background-image: linear-gradient(0deg, #f6f6f6 40%, #eaeaed 0, #eaeaed 50%, #f6f6f6 0, #f6f6f6 90%, #eaeaed 0, #eaeaed);
+background-size: 4px 4px;
+}
+@utility book-stripes-right {
+background-image: linear-gradient(90deg, #fff 40%, #f6f6f6 0, #f6f6f6 50%, #fff 0, #fff 90%, #f6f6f6 0, #f6f6f6);
+background-size: 3px 3px;
+}
+
 body {
   color: #334155;
   background-color: var(--color-slate-50);
+}
+.main {
+  background-image: radial-gradient(circle farthest-corner at 100% 50%,#d1d3d6,#fcfcfd);
 }
 ::-webkit-scrollbar {
   width: 6px;
