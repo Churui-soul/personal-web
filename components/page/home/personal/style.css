@@ -1,0 +1,35 @@
+/* 角色名称 */
+.info-role {
+    letter-spacing: 6px;
+    span.inline-block.whitespace-pre:nth-child(even) {
+        width: 0;
+    }
+}
+
+/* 容器 */
+.info-container {
+    position: relative;
+}
+/* 圆环 */
+.info-container > div svg:first-child circle {
+    stroke: var(--color-gray-400);
+    stroke-dasharray: 6;
+}
+.info-container > div svg:nth-child(5) circle {
+    stroke: var(--color-gray-300);
+    stroke-dasharray: 6;
+}
+/* 卡片 */
+.info-card {
+    position: relative;
+}
+.info-card::before {
+    content: "";
+    position: absolute;
+    --size: 64px; 
+    z-index: 1;
+    top: calc(100% - (.5 * var(--size))); left: calc(-.5 * var(--size));
+    width: var(--size); height: var(--size);
+    border-radius: 50%;
+    background-color: rgb(var(--theme-color-1));
+}

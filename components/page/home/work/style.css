@@ -1,0 +1,14 @@
+@keyframes bgSizeGrow {
+    from {
+      background-size: 0% 100%;
+      background-repeat: no-repeat;
+    }
+    to {
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+}
+.animate-bg-size {
+    animation: bgSizeGrow 2s ease-in-out forwards;
+    background-position: left center; display: inline; 
+}

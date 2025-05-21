@@ -1,0 +1,20 @@
+.animation_circle {
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(255, 193, 129, 0);
+    transform: scale(1);
+    animation: key_animation_circle 2s infinite;
+}
+@keyframes key_animation_circle {
+    0% {
+        transform: scale(.98);
+        box-shadow: 0 0 0 0 rgba(255, 193, 129, .7);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 90px rgba(255, 193, 129, 0);
+    }
+    100% {
+        transform: scale(.98);
+        box-shadow: 0 0 0 0 rgba(255, 193, 129, 0);
+    }
+}

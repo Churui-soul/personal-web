@@ -1,0 +1,18 @@
+.home {
+    overflow: auto;
+    min-height: 100vh;
+    background-image: radial-gradient(circle farthest-corner at 100% 50%,#d1d3d6,#fcfcfd);
+} 
+.accentDarkBg {
+    box-shadow: 20px 113px 140px -30px rgba(0,0,0,.1);
+    background-image: linear-gradient(to right bottom,#334155 20%,#1d2530 150%);
+}
+.accentLightBg {
+    background-image: linear-gradient(to right bottom,#fcfcfd 20%,#d0d2d7 150%);
+}
+.accentWhiteBg {
+    background-image: linear-gradient(to right bottom,#fcfcfd 20%,#f2f2f3 150%);
+}
+.accentLightBg, .accentWhiteBg {
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.1);
+}

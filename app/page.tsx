@@ -1,9 +1,9 @@
-import PersonalInfo from "@/components/home/personal-info";
+import HomePage from "@/components/page/home/index";
 
-export default function Home() {
+export default function Main() {
   return (
     <div>
-      <PersonalInfo />
+      <HomePage />
     </div>
   );
 }
