@@ -9,7 +9,7 @@ export default function BookGroup() {
       title: "You Don't Know Js",
       author: "Kyle Simpson",
       image:
-        "/book-You Don't Know Js.jpg",
+        "/book-youdonnotjs.jpg",
       link: "https://literal.club/book/kyle-simpson-you-dont-know-js-xkgpq",
     },
     {
@@ -51,7 +51,7 @@ export default function BookGroup() {
       title: "Head First HTML with CSS & XHTML",
       author: "Eric Freeman,Elisabeth Freeman",
       image:
-        "/book-Head First HTML with CSS & XHTML.jpg",
+        "/book-HeadFirstHTMLwithCSSXHTML.jpg",
       link: "https://literal.club/book/elisabeth-freeman-eric-freeman-head-first-html-with-css-and-xhtml-5whh8",
     },
     {
