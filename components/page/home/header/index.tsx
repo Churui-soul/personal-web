@@ -17,6 +17,9 @@ export default function Header() {
           <Link className="hidden lg:block" href="/#experience">
             Experience
           </Link>
+          <Link className="hidden lg:block" href="/#book">
+            Book
+          </Link>
         </nav>
 
         {/* 第三方地址 */}

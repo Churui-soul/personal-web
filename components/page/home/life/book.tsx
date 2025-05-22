@@ -65,7 +65,7 @@ export default function BookGroup() {
   return (
     <div
       id="book"
-      className="px-4 lg:px-16 xl:px-32 2xl:px-44 flex gap-4 flex-col my-24 lg:my-32 relative z-1"
+      className="px-4 lg:px-16 xl:px-32 2xl:px-44 flex gap-4 flex-col py-24 lg:py-32 relative z-1"
     >
       <div className="w-full mt-2 lg:mt-[0px] max-w-md text-gray-50 accentDarkBg rounded-3xl p-6">
         <div className="whitespace-nowrap text-orange-400 text-4xl mb-2 font-bold">
@@ -78,6 +78,7 @@ export default function BookGroup() {
       <div className="grid grid-cols-2 gap-6 mt-10 lg:grid-cols-3 lg:gap-10 xl:grid-cols-4">
         {readingList.map((item) => (
           <a
+            key={item.title}
             className="cursor-pointer rounded-xl bg-slate-50 p-8 lg:p-16 group hover:bg-slate-700 transition-background duration-[0.5s] shadow-md"
             href={item.link}
             target="_blank"

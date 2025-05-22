@@ -15,7 +15,7 @@ export default function LifeInfo() {
   ];
 
   return (
-    <div id='experience' className="px-4 lg:px-16 xl:px-32 2xl:px-44 flex gap-4 flex-col my-24 lg:my-32 relative z-1">
+    <div id='experience' className="px-4 lg:px-16 xl:px-32 2xl:px-44 flex gap-4 flex-col py-24 lg:py-32 relative z-1">
       <div className="flex flex-col lg:flex-row gap-6">
         <div className="basis-2/3 rounded-3xl accentWhiteBg p-6">
           <div className="font-fantasy text-4xl mb-2">时间</div>
