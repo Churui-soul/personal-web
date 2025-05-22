@@ -51,7 +51,7 @@ export default function Role({ delay = 2000 }: RoleComponentProps) {
 
   return (
     <h2 className="info-role relative dark:text-neutral-100 px-2 text-orange-400 font-bold text-5xl md:text-6xl w-[5.8em] font-fantasy whitespace-nowrap text-center">
-      <TextAnimate animation={animationName} by="word">
+      <TextAnimate animation={animationName} by="word" className="whitespace-nowrap">
         {roleName}
       </TextAnimate>
     </h2>

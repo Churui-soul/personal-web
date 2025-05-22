@@ -75,7 +75,7 @@ export default function BookGroup() {
         <br />
         这些是我力荐的书！
       </div>
-      <div className="grid grid-cols-2 gap-6 mt-10 lg:grid-cols-3 lg:gap-10 xl:grid-cols-4">
+      <div className="grid grid-cols-1 gap-6 mt-10 lg:grid-cols-3 lg:gap-10 xl:grid-cols-4">
         {readingList.map((item) => (
           <a
             key={item.title}

@@ -27,8 +27,7 @@ export default function Streamgraph({
     const svg = d3.select(svgRef.current);
     svg.selectAll("*").remove();
 
-    const { innerWidth } = window;
-    const effectiveWidth = Math.min(width, innerWidth);
+    const effectiveWidth = Math.min(width, 1000);
     const minFontSize = 8; // 最小字体大小
     const maxFontSize = 16; // 最大字体大小
     const padding = 8; // 文字与区域边界的间距
@@ -284,7 +283,7 @@ export default function Streamgraph({
 
     const yAxisRight = d3
       .axisRight(y)
-      .ticks(5)
+      .tickValues([.2, .4, .6, .8])
       // @ts-expect-error 应该是types版本对不上，一直不行
       .tickFormat((d) => `${(d * 100).toFixed(0)}%`);
 
@@ -295,7 +294,7 @@ export default function Streamgraph({
 
     svg
       .append("g")
-      .attr("transform", `translate(${-1}, ${30})`)
+      .attr("transform", `translate(${-1}, ${0})`)
       .call(yAxisRight);
 
     return () => {
@@ -305,7 +304,7 @@ export default function Streamgraph({
 
   return (
     <div className={className}>
-      <svg ref={svgRef} viewBox="0,0,500,300" className="w-full h-full" />
+      <svg ref={svgRef} viewBox="0,0,500,300" />
     </div>
   );
 }
